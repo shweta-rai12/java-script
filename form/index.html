@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+                display: block;
+                height: 3rem;
+                font-size: 2rem;
+
+
+        }
+        input{
+            height: 3rem;
+            width: 25rem;
+            border-radius: 12px;
+
+        }
+        form{
+            border: 3px solid black;
+            width: 700px;
+            margin: 3px auto;
+            padding: 10px;
+            background-color: lightslategray;
+            border-radius: 15px;
+        
+        }
+        input[type="submit"]{
+            width:9rem;
+            margin-right: 5rem;
+            background-color:black;
+            color:white;
+        }
+        input[type="reset"]{
+            width: 9rem;
+            background-color: black;
+            color: white; 
+
+        }
+        span{
+            font-size: 2rem;
+        }
+        
+        
+
+</style>
+</head>
+<body>
+    <form action="./ind.html">
+       
+            <label for="name">Username</label>
+            <input type="text" name="" id="" required><span></span>
+
+            <label for="age">Age</label>
+            <input type="number" name="" id="" required>
+
+            <label for="gender">Gender</label>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="" required>
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="" required>
+
+            <label for="address">Address</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="" required>
+
+            <label for="passwords">Password</label>
+            <input type="password" name="" id="" required>
+
+            <input type="submit" onclick="validate()" value="Submit">
+            <input type="reset" value="Reset">
+
+
+
+
+
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>

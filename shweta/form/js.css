@@ -1,0 +1,16 @@
+/*h1{
+    text-align: center;
+}*/
+form{
+    background-color: rgb(93, 248, 248);
+   /* border: 1px solid;
+   /* border-radius: 20px 10px ;*/
+    width: 400px;
+}
+span{
+    color: red;
+}
+
+.box{
+    margin-left: 25pc;
+}
